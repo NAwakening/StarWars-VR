@@ -10,12 +10,14 @@ namespace N_Awakening.SWVR
     {
         [SerializeField] int life, maxLife;
         [SerializeField] GameObject[] lifeMeter;
+        [SerializeField] AudioSource hurt;
         private void OnCollisionEnter(Collision collision)
         {
             if (collision.gameObject.CompareTag("Bullet"))
             {
                 StopAllCoroutines();
                 life--;
+                hurt.Play();
                 if (life == 0)
                 {
                     ReloadScene();
