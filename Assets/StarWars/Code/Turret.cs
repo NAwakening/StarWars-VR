@@ -13,7 +13,7 @@ namespace N_Awakening.SWVR
         // Start is called before the first frame update
         void Start()
         {
-            InvokeRepeating("Fire", 1f, 3f);
+            InvokeRepeating("Fire", 3f, 3f);
             Fire();
         }
 
