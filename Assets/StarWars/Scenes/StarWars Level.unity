@@ -10400,7 +10400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495954, guid: e15141fc92cd7b947a0d7d838f1ffb48, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 495954, guid: e15141fc92cd7b947a0d7d838f1ffb48, type: 3}
       propertyPath: m_LocalScale.x
@@ -11229,7 +11229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
@@ -12100,6 +12100,51 @@ Transform:
   m_Father: {fileID: 1074532954}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1292267159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1292267161}
+  - component: {fileID: 1292267160}
+  m_Layer: 0
+  m_Name: DeathBarrier
+  m_TagString: DeathBarrier
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1292267160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292267159}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 78.8, y: 1, z: 86.4}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1292267161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292267159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1, y: -19.04, z: 14.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1302629965
 GameObject:
   m_ObjectHideFlags: 0
@@ -12727,7 +12772,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1305148748750625138, guid: 3eb9104f406d78549bb8647b67cff860, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1305148748750625138, guid: 3eb9104f406d78549bb8647b67cff860, type: 3}
       propertyPath: m_LocalScale.x
@@ -18338,7 +18383,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1305148748750625138, guid: 3eb9104f406d78549bb8647b67cff860, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1305148748750625138, guid: 3eb9104f406d78549bb8647b67cff860, type: 3}
       propertyPath: m_LocalScale.x
